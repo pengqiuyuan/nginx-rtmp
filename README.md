@@ -9,7 +9,7 @@ nginx-rtmp 流媒体服务器的搭建
 - **nginx 安装nginx-rtmp-module模块**
 - **客户端 ffmpeg 转换以及流化音视频**
 - **采集桌面或摄像头 screen-capture-recorder-to-video-windows-free**
-- 
+
 ```
 https://github.com/arut/nginx-rtmp-module  nginx-rtmp流媒体模块
 https://github.com/rdp/screen-capture-recorder-to-video-windows-free  采集桌面、摄像头
