@@ -18,11 +18,11 @@ nginx-rtmp 流媒体服务器的搭建
 ## 展示(这里展示采集桌面视频)
 ---
 #### 1. pc机桌面
-![img](http://182.92.69.21/images/nginx-rtmp/1.jpg)
+![img](http://182.92.69.21/images/nginx-rtmp/1.JPG)
 #### 2. vlc播放直播桌面视频(rtmp://182.92.69.21/hls/test)
-![img](http://182.92.69.21/images/nginx-rtmp/2.jpg)
+![img](http://182.92.69.21/images/nginx-rtmp/2.JPG)
 #### 3. 手机播放m3u8流(182.92.69.21/hls/test.m3u8)
-![img](http://182.92.69.21/images/nginx-rtmp/3.png)
-![img](http://182.92.69.21/images/nginx-rtmp/4.png)
+![img](http://182.92.69.21/images/nginx-rtmp/3.PNG)
+![img](http://182.92.69.21/images/nginx-rtmp/4.PNG)
 
 	
