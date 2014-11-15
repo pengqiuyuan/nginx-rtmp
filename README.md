@@ -11,7 +11,7 @@ http://182.92.69.21/images/nginx-rtmp/ffmpeg.rar
 ```
 2、安装screen-capture-recorder(采集windows桌面、摄像头)
 下载地址：
-http://sourceforge.net/projects/screencapturer/files/Setup%20Screen%20Capturer%20Recorder%20v0.12.8.exe/download
+http://download.csdn.net/detail/pqy15005917185/8160801
 直接安装就ok了，安装之后才可以使用bat脚本的
 “-f dshow -i video=screen-capture-recorder -f dshow -i audio=virtual-audio-capturer”
 ```
@@ -171,7 +171,7 @@ ffmpeg -f dshow -i video=screen-capture-recorder -f dshow -i audio=virtual-audio
 ```
 ffmpeg(带脚本)下载地址,流媒体服务器搭建好之后,修改bat脚本里的推送地址“rtmp://192.168.1.50/hls/test”,直接点击运行就可以向服务器推送了,之后“/home/dev/pengqiuyuan/streaming”目录下面会生产m3u8、ts文件就成功了
 下载地址：
-http://182.92.69.21/images/nginx-rtmp/ffmpeg.rar
+http://download.csdn.net/detail/pqy15005917185/8160799
 ```
 阿里云就1M的带宽,被占的满满的,下载地址换到csdn上面好了
 ```
