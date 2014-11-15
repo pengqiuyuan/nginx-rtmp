@@ -3,7 +3,7 @@ nginx-rtmp
 
 nginx-rtmp 流媒体服务器的搭建 
 
-在线Demo,直播自己的pc机桌面音视频
+在线Demo,直播自己的pc机桌面音视频(现在就一单线路,1M带宽,2个人向同一个目录下推送m3u8、ts文件肯定不行,之后再改,资源有限)
 ```
 1、下载ffmpeg及脚本
 http://download.csdn.net/detail/pqy15005917185/8160799
