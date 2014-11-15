@@ -33,7 +33,18 @@ https://github.com/rdp/screen-capture-recorder-to-video-windows-free  采集桌�
 ## 环境部署及流媒体服务器搭建:
 ---	
 #### 1.nignx及nginx-rtmp模块的安装
+nginx-rtmp的下载,直接下源码解压就ok了,我放在这里/home/dev/pengqiuyuan/nginx-rtmp-module-master 
+```
+https://github.com/arut/nginx-rtmp-module
+```
+![img](http://182.92.69.21/images/nginx-rtmp/6.png)
 
+在编译nginx的时候添加nginx-rtmp模块的路径
+```
+./configure --add-module=/home/dev/pengqiuyuan/nginx-rtmp-module-master --with-http_ssl_module
+make
+make install
+```
 #### 2.nginx平滑安装nginx-rtmp
 
 #### 3.nginx.conf的修改(完整的流媒体配置)
@@ -46,6 +57,8 @@ https://github.com/rdp/screen-capture-recorder-to-video-windows-free  采集桌�
 > (4).http请求地址(http://182.92.69.21/hls/test.m3u8)
 
 > (5).vlc播放rtmp流(rtmp://182.92.69.21/hls/test)
+
+> (6).hls_path和location /hls{alias}的路径保持一样如:/home/dev/pengqiuyuan/streaming ,目录下面保存的是客户端推送到流服务器的m3u8、ts文件
 
 ```
 # For more information on configuration, see:
