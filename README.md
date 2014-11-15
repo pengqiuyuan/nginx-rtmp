@@ -137,5 +137,22 @@ http {
 }
 
 ```
+#### 4.客户端部分,采集桌面视频以及ffmpeg转换以及流化音视频
+之前遇到丢帧的问题,real-time buffer 276% full! frame dropped! 
+
+```
+问题：
+https://github.com/rdp/screen-capture-recorder-to-video-windows-free/issues/37
+```
+桌面音视频采集成功的例子:
+```
+ffmpeg -f dshow -i video=screen-capture-recorder -f dshow -i audio=virtual-audio-capturer -vf scale=1280:720 -vcodec libx264 -r 60.97 -acodec libvo_aacenc -ac 2 -ar 44100 -ab 128 -pix_fmt yuv420p -tune zerolatency -preset ultrafast -f flv "rtmp://192.168.1.50/hls/test"
+```
+ffmpeg(带脚本)下载地址,流媒体服务器搭建好之后,修改bat脚本里的推送地址“rtmp://192.168.1.50/hls/test”,直接点击运行就可以向服务器推送了,之后“/home/dev/pengqiuyuan/streaming”目录下面会生产m3u8、ts文件就成功了
+下载地址：
+http://182.92.69.21/images/nginx-rtmp/ffmpeg.rar
+![img](http://182.92.69.21/images/nginx-rtmp/7.png)
+![img](http://182.92.69.21/images/nginx-rtmp/8.png)
+![img](http://182.92.69.21/images/nginx-rtmp/9.png)
 
 
