@@ -155,4 +155,5 @@ http://182.92.69.21/images/nginx-rtmp/ffmpeg.rar
 ![img](http://182.92.69.21/images/nginx-rtmp/8.png)
 ![img](http://182.92.69.21/images/nginx-rtmp/9.png)
 
-
+#### 5.视频直播+实时聊天部分,之后补充
+整体思路是 nginx-rtmp(流媒体服务) + nodejs(即时聊天)
