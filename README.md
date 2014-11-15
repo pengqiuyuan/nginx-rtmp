@@ -6,7 +6,7 @@ nginx-rtmp 流媒体服务器的搭建
 在线Demo,直播自己的pc机桌面音视频
 ```
 1、下载ffmpeg及脚本
-http://182.92.69.21/images/nginx-rtmp/ffmpeg.rar
+http://download.csdn.net/detail/pqy15005917185/8160799
 ```
 ```
 2、安装screen-capture-recorder(采集windows桌面、摄像头)
