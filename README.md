@@ -15,11 +15,11 @@ http://download.csdn.net/detail/pqy15005917185/8160801
 直接安装就ok了，安装之后才可以使用bat脚本的
 “-f dshow -i video=screen-capture-recorder -f dshow -i audio=virtual-audio-capturer”
 ```
-![img](http://182.92.69.21/images/nginx-rtmp/10.png)
+![img](http://html.pengqiuyuan.com/images/nginx-rtmp/10.png)
 ```
 3、解压,点击"流服务器直播.bat",运行如下图
 ```
-![img](http://182.92.69.21/images/nginx-rtmp/7.png)
+![img](http://html.pengqiuyuan.com/images/nginx-rtmp/7.png)
 ```
 4、vlc访问地址“rtmp://182.92.69.21/hls/test” 或者直接用iphone来访问“http://182.92.69.21/hls/test.m3u8”
 ```
@@ -40,16 +40,16 @@ https://github.com/rdp/screen-capture-recorder-to-video-windows-free  采集桌�
 ---
 #### 1. 小米盒子提供视频源,通过设备(桌面或者摄像头)采集音视频,通过rtmp等协议,经过ffmpeg转换以及流化音视频到nginx-rtmp流媒体服务器。
 #### 2.拓扑图
-![img](http://182.92.69.21/images/nginx-rtmp/5.png)
+![img](http://html.pengqiuyuan.com/images/nginx-rtmp/5.png)
 ## 展示(这里展示采集桌面视频)
 ---
 #### 1. pc机桌面
-![img](http://182.92.69.21/images/nginx-rtmp/1.png)
+![img](http://html.pengqiuyuan.com/images/nginx-rtmp/1.png)
 #### 2. vlc播放直播桌面视频(rtmp://182.92.69.21/hls/test)
-![img](http://182.92.69.21/images/nginx-rtmp/2.png)
+![img](http://html.pengqiuyuan.com/images/nginx-rtmp/2.png)
 #### 3. 手机播放m3u8流(182.92.69.21/hls/test.m3u8)
-![img](http://182.92.69.21/images/nginx-rtmp/3.PNG)
-![img](http://182.92.69.21/images/nginx-rtmp/4.PNG)
+![img](http://html.pengqiuyuan.com/images/nginx-rtmp/3.PNG)
+![img](http://html.pengqiuyuan.com/images/nginx-rtmp/4.PNG)
 
 ## 环境部署及流媒体服务器搭建:
 ---	
@@ -58,7 +58,7 @@ nginx-rtmp的下载,直接下源码解压就ok了,我放在这里/home/dev/pengq
 ```
 https://github.com/arut/nginx-rtmp-module
 ```
-![img](http://182.92.69.21/images/nginx-rtmp/6.png)
+![img](http://html.pengqiuyuan.com/images/nginx-rtmp/6.png)
 
 在编译nginx的时候添加nginx-rtmp模块的路径
 ```
@@ -175,10 +175,10 @@ http://download.csdn.net/detail/pqy15005917185/8160799
 ```
 阿里云就1M的带宽,被占的满满的,下载地址换到csdn上面好了
 ```
-![img](http://182.92.69.21/images/nginx-rtmp/11.png)
-![img](http://182.92.69.21/images/nginx-rtmp/7.png)
-![img](http://182.92.69.21/images/nginx-rtmp/8.png)
-![img](http://182.92.69.21/images/nginx-rtmp/9.png)
+![img](http://html.pengqiuyuan.com/images/nginx-rtmp/11.png)
+![img](http://html.pengqiuyuan.com/images/nginx-rtmp/7.png)
+![img](http://html.pengqiuyuan.com/images/nginx-rtmp/8.png)
+![img](http://html.pengqiuyuan.com/images/nginx-rtmp/9.png)
 
 #### 5.视频直播+实时聊天部分,之后补充
 整体思路是 nginx-rtmp(流媒体服务) + nodejs(即时聊天)
